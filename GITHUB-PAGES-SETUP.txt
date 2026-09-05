@@ -1,0 +1,33 @@
+ZAIRA'S MOBILE BAR — GITHUB PAGES WEBSITE
+
+This package is prepared for publishing the same way the GorgeLine drone-business website was published.
+
+UPLOAD TO GITHUB
+1. Go to github.com and sign in.
+2. Create a NEW PUBLIC repository.
+   Suggested name: zairas-mobile-bar
+3. Open the repository.
+4. Click Add file -> Upload files.
+5. Extract this ZIP on your computer first.
+6. Upload the extracted CONTENTS — not the ZIP itself.
+7. Make sure index.html, styles.css, script.js and the assets folder are directly at the repository root.
+8. Commit the files.
+9. Go to Settings -> Pages.
+10. Under Build and deployment choose:
+    Source: Deploy from a branch
+    Branch: main
+    Folder: / (root)
+11. Save.
+12. GitHub will create the temporary github.io website address.
+
+CUSTOM DOMAIN
+Once Zaira's final domain is selected:
+1. Open Settings -> Pages in the GitHub repository.
+2. Enter the custom domain.
+3. Configure the domain's DNS records at the registrar.
+4. Enable HTTPS after the DNS connection completes.
+
+IMPORTANT
+- Use this package, not the Shopify theme ZIP.
+- This is the current approved V21 static website.
+- No custom-domain CNAME is included yet because the final Zaira's domain has not been specified.
