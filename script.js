@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function(){
         "Venue / location: "+(d.get('location')||'')+"\n\n"+
         "Event / drink details:\n"+(d.get('details')||'')
       );
-      location.href="mailto:zailizet@icloud.com?subject="+subject+"&body="+body;
+      location.href="mailto:zairasmobilebar@gmail.com?subject="+subject+"&body="+body;
       var note=form.querySelector('.form-note');
       if(note){
         note.style.display='block';
