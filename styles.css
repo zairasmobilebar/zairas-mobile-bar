@@ -1556,3 +1556,34 @@ body{
     font-size:11px !important;
   }
 }
+
+
+/* =========================================================
+   V22 — IPHONE / MOBILE HERO VIDEO FRAMING FIX
+   Keep Zaira visible on narrow portrait screens.
+   ========================================================= */
+@media(max-width:650px){
+  .hero-v12 .hero-visual,
+  .hero-v12 .hero-video-wrap{
+    min-height:0 !important;
+    height:clamp(280px,82vw,320px) !important;
+  }
+
+  .hero-v12 .hero-bg-video{
+    width:100% !important;
+    height:100% !important;
+    min-height:0 !important;
+    object-fit:cover !important;
+
+    /* Zaira is on the right side of the source video.
+       Shift the crop toward her on narrow iPhone screens. */
+    object-position:72% center !important;
+  }
+}
+
+/* Extra-narrow phones */
+@media(max-width:390px){
+  .hero-v12 .hero-bg-video{
+    object-position:74% center !important;
+  }
+}

@@ -37,3 +37,9 @@ V21 HOMEPAGE CARD REFINEMENT
 - Smaller headline, paragraph and button inside each card.
 - Lighter photo overlay.
 - Tablet/mobile versions reduced separately.
+
+V22 MOBILE VIDEO FIX
+- Fixed iPhone hero-video framing.
+- Mobile hero is shorter so less of the 16:9 source must be cropped.
+- Video crop shifts toward the right where Zaira is standing.
+- Desktop layout is unchanged.
